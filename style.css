@@ -1,0 +1,179 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Open sans";
+    font-size: 18px;
+}
+h1 h2 h3 h4 h5 h6{
+    font-family: "Poppins Bold";
+}
+
+
+
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+.btn{
+    background-color: #3461ff;
+    color: white;
+    border: none;
+    padding: 16px 24px;
+    border-radius: 70px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+form input{
+padding: 20px 18px;
+border-radius: 70px;
+box-shadow: none;
+border-style: solid;
+border-color: rgb(0,0,0,0.2);
+font-size: 18px;
+width: 340px;
+}
+#companies{
+    background-color: #fafafa;
+}
+#companies h2{
+text-align: center;
+font-weight: 400px;
+}
+
+section{
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+#logo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#logo div{
+    margin-top: 94px;
+    width: 20%;
+    margin-bottom: 94px; 
+}
+
+.box2{
+    display: flex;
+    
+}
+.box2 >.abc{
+display: flex;
+flex-wrap: wrap;
+}
+
+.abc{
+    width: 50%;
+}
+a{
+    color: #3461ff;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+#section p{
+    margin-top: 20px;
+    margin-bottom:60px ;
+}
+#section h3 + p{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(0,0,0,0.2)
+}
+h2{
+    font-size: 40px;
+}
+#section h3{
+    font-size: 30px;
+}
+#work{
+    text-align: center;
+}
+#work .flex{
+    justify-content: unset;
+}
+#work .flex > div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.contaner h2{
+    margin-top: 120px;
+    margin-bottom: 15px;
+}
+.container p{
+    margin-bottom: 55px;
+}
+.flex div h4{
+    margin-top: 17px;
+}
+#work div a{
+    margin-top: 57px;
+    margin-bottom: 140px;
+    display: inline-block;
+}
+.circle{
+    display: flex;
+    align-items: center;
+    background-color: #3561ff;
+    background-image: url(Group\ 584.png);
+    background-repeat: no-repeat;
+    color: white;
+    padding: 135px 80px;
+    border-radius: 32px;
+}
+.circle > *{
+width: 50%;
+}
+.circle .btns{
+    display: inline-block;
+    margin-top: 32px;
+}
+.circle a{
+    background-color: white;
+    color: black;
+    /* margin-top: 32px; */
+    /* margin-bottom: 97px; */
+    width: 150px;
+    height: 64px;
+    border-radius: 25px;
+}
+#id{
+    display: flex;
+    flex-direction: row;
+}
+@media(min-width: 768px) and (max-width: 1190px){
+    #flex{
+        flex-wrap: wrap;
+    }
+    .flex{
+        width: (50%);
+    }
+}
